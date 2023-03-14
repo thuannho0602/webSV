@@ -1,0 +1,24 @@
+﻿@model Webshop.Models.SinhVien;
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    ViewData["SinhVien"] = "Index";
+    Layout = "~/Views/Shear/_Layout.cshtml";
+}
+
+
+<environment names="Development">
+    Moi truong Dev
+</environment>
+<environment names="Webshop">
+    Moi truong WebShop
+</environment>
+<h3>
+    <a href="/Home/Creact">SinhVien</a>
+</h3>
+<h3>
+    <a href="/Home/Edit">Edit</a>
+</h3>
+<h3>
+    <a href="/Home/FromQuery">From</a>
+</h3>

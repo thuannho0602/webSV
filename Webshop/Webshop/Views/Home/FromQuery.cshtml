@@ -1,0 +1,33 @@
+﻿@model Webshop.Models.SinhVien;
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<form action="/Home/FromQuery/?name=Test" method="post">
+
+    <label asp-for="Name"></label>
+    <input asp-for="Name" />
+
+    <label asp-for="Diem"></label>
+    <input asp-for="Diem" />
+
+    <label asp-for="DTB"></label>
+    <input asp-for="DTB" asp-format="{0/N4}" />
+
+    <label asp-for="DiaChi"></label>
+    <input asp-for="DiaChi" />
+
+    <label asp-for="SDT"></label>
+    <input asp-for="SDT" />
+
+
+    <label asp-for="Email"></label>
+    <input asp-for="Email" />
+
+    <label asp-for="Ngaysinh"></label>
+    <input asp-for="Ngaysinh" />
+
+    <input type="submit" name="submit" />
+</form>

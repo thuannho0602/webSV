@@ -1,0 +1,52 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Webshop
+build_property.RootNamespace = Webshop
+build_property.ProjectDir = D:\NguyenMinhThuan\Asp.Net\Webshop\Webshop\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\NguyenMinhThuan\Asp.Net\Webshop\Webshop
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/NguyenMinhThuan/Asp.Net/Webshop/Webshop/Views/Home/Creact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVhY3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NguyenMinhThuan/Asp.Net/Webshop/Webshop/Views/Home/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NguyenMinhThuan/Asp.Net/Webshop/Webshop/Views/Home/FromQuery.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGcm9tUXVlcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NguyenMinhThuan/Asp.Net/Webshop/Webshop/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NguyenMinhThuan/Asp.Net/Webshop/Webshop/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NguyenMinhThuan/Asp.Net/Webshop/Webshop/Views/Shear/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hlYXJcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NguyenMinhThuan/Asp.Net/Webshop/Webshop/Views/Shear/_LayoutFooter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hlYXJcX0xheW91dEZvb3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NguyenMinhThuan/Asp.Net/Webshop/Webshop/Views/Shear/_LayoutMenu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hlYXJcX0xheW91dE1lbnUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NguyenMinhThuan/Asp.Net/Webshop/Webshop/Views/Shear/_LayoutTop.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hlYXJcX0xheW91dFRvcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
