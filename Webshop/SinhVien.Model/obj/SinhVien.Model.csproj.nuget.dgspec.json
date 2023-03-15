@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\NguyenMinhThuan\\Asp.Net\\Webshop\\SinhVien.Model\\SinhVien.Model.csproj": {}
+    "D:\\NguyenMinhThuan\\Asp.Net\\webSV\\Webshop\\SinhVien.Model\\SinhVien.Model.csproj": {}
   },
   "projects": {
-    "D:\\NguyenMinhThuan\\Asp.Net\\Webshop\\SinhVien.Model\\SinhVien.Model.csproj": {
+    "D:\\NguyenMinhThuan\\Asp.Net\\webSV\\Webshop\\SinhVien.Model\\SinhVien.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\NguyenMinhThuan\\Asp.Net\\Webshop\\SinhVien.Model\\SinhVien.Model.csproj",
+        "projectUniqueName": "D:\\NguyenMinhThuan\\Asp.Net\\webSV\\Webshop\\SinhVien.Model\\SinhVien.Model.csproj",
         "projectName": "SinhVien.Model",
-        "projectPath": "D:\\NguyenMinhThuan\\Asp.Net\\Webshop\\SinhVien.Model\\SinhVien.Model.csproj",
+        "projectPath": "D:\\NguyenMinhThuan\\Asp.Net\\webSV\\Webshop\\SinhVien.Model\\SinhVien.Model.csproj",
         "packagesPath": "C:\\Users\\AD\\.nuget\\packages\\",
-        "outputPath": "D:\\NguyenMinhThuan\\Asp.Net\\Webshop\\SinhVien.Model\\obj\\",
+        "outputPath": "D:\\NguyenMinhThuan\\Asp.Net\\webSV\\Webshop\\SinhVien.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -64,6 +64,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.3, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             }
           },
           "imports": [

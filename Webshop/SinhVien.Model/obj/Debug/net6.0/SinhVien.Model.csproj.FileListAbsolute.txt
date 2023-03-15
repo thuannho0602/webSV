@@ -10,3 +10,17 @@ D:\NguyenMinhThuan\Asp.Net\Webshop\SinhVien.Model\obj\Debug\net6.0\SinhVien.Mode
 D:\NguyenMinhThuan\Asp.Net\Webshop\SinhVien.Model\obj\Debug\net6.0\refint\SinhVien.Model.dll
 D:\NguyenMinhThuan\Asp.Net\Webshop\SinhVien.Model\obj\Debug\net6.0\SinhVien.Model.pdb
 D:\NguyenMinhThuan\Asp.Net\Webshop\SinhVien.Model\obj\Debug\net6.0\ref\SinhVien.Model.dll
+D:\NguyenMinhThuan\Asp.Net\webSV\Webshop\SinhVien.Model\bin\Debug\net6.0\SinhVien.Model.deps.json
+D:\NguyenMinhThuan\Asp.Net\webSV\Webshop\SinhVien.Model\bin\Debug\net6.0\SinhVien.Model.runtimeconfig.json
+D:\NguyenMinhThuan\Asp.Net\webSV\Webshop\SinhVien.Model\bin\Debug\net6.0\SinhVien.Model.dll
+D:\NguyenMinhThuan\Asp.Net\webSV\Webshop\SinhVien.Model\bin\Debug\net6.0\SinhVien.Model.pdb
+D:\NguyenMinhThuan\Asp.Net\webSV\Webshop\SinhVien.Model\obj\Debug\net6.0\SinhVien.Model.csproj.AssemblyReference.cache
+D:\NguyenMinhThuan\Asp.Net\webSV\Webshop\SinhVien.Model\obj\Debug\net6.0\SinhVien.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\NguyenMinhThuan\Asp.Net\webSV\Webshop\SinhVien.Model\obj\Debug\net6.0\SinhVien.Model.AssemblyInfoInputs.cache
+D:\NguyenMinhThuan\Asp.Net\webSV\Webshop\SinhVien.Model\obj\Debug\net6.0\SinhVien.Model.AssemblyInfo.cs
+D:\NguyenMinhThuan\Asp.Net\webSV\Webshop\SinhVien.Model\obj\Debug\net6.0\SinhVien.Model.csproj.CoreCompileInputs.cache
+D:\NguyenMinhThuan\Asp.Net\webSV\Webshop\SinhVien.Model\obj\Debug\net6.0\SinhVien.Model.dll
+D:\NguyenMinhThuan\Asp.Net\webSV\Webshop\SinhVien.Model\obj\Debug\net6.0\refint\SinhVien.Model.dll
+D:\NguyenMinhThuan\Asp.Net\webSV\Webshop\SinhVien.Model\obj\Debug\net6.0\SinhVien.Model.pdb
+D:\NguyenMinhThuan\Asp.Net\webSV\Webshop\SinhVien.Model\obj\Debug\net6.0\SinhVien.Model.genruntimeconfig.cache
+D:\NguyenMinhThuan\Asp.Net\webSV\Webshop\SinhVien.Model\obj\Debug\net6.0\ref\SinhVien.Model.dll

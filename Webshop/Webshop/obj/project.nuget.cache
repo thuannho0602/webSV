@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "G+1FhzSEb1rRMxvnt2K6f6vDmCgYB9jxtCaY7dNQ7cUPQ6NVHaup0Nw7NqV2hNYBzDz5FdTHBnDw1zNWtq5FHw==",
+  "dgSpecHash": "VXs2eg3onHK2Tja2os78Z17ied5Xqir+Apo/rpV6hKenV0oGh5ONn84n348Uzr03LVyTh4P5JUX+ItQWr4iaDA==",
   "success": true,
-  "projectFilePath": "D:\\NguyenMinhThuan\\Asp.Net\\Webshop\\Webshop\\Webshop.csproj",
+  "projectFilePath": "D:\\NguyenMinhThuan\\Asp.Net\\webSV\\Webshop\\Webshop\\Webshop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AD\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\AD\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

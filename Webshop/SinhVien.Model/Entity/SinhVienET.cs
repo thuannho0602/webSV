@@ -8,12 +8,13 @@ using System.Threading.Tasks;
 
 namespace SinhVien.Model.Entity
 {
-    [Table("SinhVien")]
+  
     public class SinhVienET
     {
 
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        [Key]
+        
+       
         public int Id { get; set; }
         public string Firstname { get; set; }
         public string Lastname { get; set; }
@@ -23,8 +24,8 @@ namespace SinhVien.Model.Entity
 
 
         public virtual LopET LopET { get; set; }
-        [ForeignKey("LopId")]
+        
         public int LopId { get; set; }
-        public ICollection<DiemThiET> DiemThiETs { get; set; }
+        public List<DiemThiET> DiemThiETs { get; set; }
     }
 }

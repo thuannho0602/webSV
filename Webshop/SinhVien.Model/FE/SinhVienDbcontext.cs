@@ -16,8 +16,15 @@ namespace SinhVien.Model.FE
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.ApplyConfiguration(new AppConfiguration());
-            base.OnModelCreating(modelBuilder);
+            modelBuilder.ApplyConfiguration (new AppConfiguration());
+            modelBuilder.ApplyConfiguration (new SinhVienConfiguration());
+            modelBuilder.ApplyConfiguration (new LopConfiguration());
+            modelBuilder.ApplyConfiguration(new KhoaConfiguration());
+            modelBuilder.ApplyConfiguration(new GiangVienConfiguration());
+            modelBuilder.ApplyConfiguration(new MonHocConfiguration());
+            modelBuilder.ApplyConfiguration(new DiemThiConfiguration());
+
+            //base.OnModelCreating(modelBuilder);
         }
         public DbSet<Appconfig> Appconfigs { get; set; }
         public DbSet<SinhVienET> SinhVienETs { get; set; }

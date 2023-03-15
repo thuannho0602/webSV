@@ -37,7 +37,7 @@ namespace Webshop.Controllers
         //}
 
         [HttpPost]
-        public IActionResult Creact(SinhVien sinhVien)
+        public IActionResult Creact([FromQuery]SinhVien sinhVien)
         {
             string Sv = string.Empty;
             if (ModelState.IsValid)

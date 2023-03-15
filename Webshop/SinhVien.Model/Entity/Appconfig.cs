@@ -8,10 +8,10 @@ using System.Threading.Tasks;
 
 namespace SinhVien.Model.Entity
 {
-    [Table("Appconfig")]
+   
     public class Appconfig
     {
-        [Key]
+      
         public string Key { get; set; }
         public string Value { get; set; }
     }

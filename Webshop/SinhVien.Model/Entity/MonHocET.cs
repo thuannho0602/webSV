@@ -8,15 +8,16 @@ using System.Threading.Tasks;
 
 namespace SinhVien.Model.Entity
 {
-    [Table("MonHoc")]
+   
     public class MonHocET
     {
 
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        [Key]
+        
+        
         public int Id { get; set; }
         public string TenMH { get; set; }
         public int SoTiet { get; set; }
-        public ICollection<DiemThiET> DiemThiETs { get; set; }
+        public List<DiemThiET> DiemThiETs { get; set; }
     }
 }

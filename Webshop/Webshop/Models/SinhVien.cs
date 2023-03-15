@@ -6,9 +6,10 @@ namespace Webshop.Models
     {
         public int Id { get; set; }
         [Display(Name="Tên")]
-        [Required(ErrorMessage = "Name is Required")]
-        //[Required(AllowEmptyStrings = false, ErrorMessage = "Please enter the name")]
-        [StringLength(maximumLength:25,MinimumLength =3,ErrorMessage = "Length  3 to 25")]
+
+        [Required(AllowEmptyStrings = false, ErrorMessage = "Please enter the name")]
+        [StringLength(maximumLength: 25, MinimumLength = 3, ErrorMessage = "Length must be between 3 to 25")]
+        
         public string Name { get; set; }
         
         public int Diem { get; set; }

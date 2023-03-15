@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\NguyenMinhThuan\\Asp.Net\\Webshop\\Webshop\\Webshop.csproj": {}
+    "D:\\NguyenMinhThuan\\Asp.Net\\webSV\\Webshop\\Webshop\\Webshop.csproj": {}
   },
   "projects": {
-    "D:\\NguyenMinhThuan\\Asp.Net\\Webshop\\Webshop\\Webshop.csproj": {
+    "D:\\NguyenMinhThuan\\Asp.Net\\webSV\\Webshop\\Webshop\\Webshop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\NguyenMinhThuan\\Asp.Net\\Webshop\\Webshop\\Webshop.csproj",
+        "projectUniqueName": "D:\\NguyenMinhThuan\\Asp.Net\\webSV\\Webshop\\Webshop\\Webshop.csproj",
         "projectName": "Webshop",
-        "projectPath": "D:\\NguyenMinhThuan\\Asp.Net\\Webshop\\Webshop\\Webshop.csproj",
+        "projectPath": "D:\\NguyenMinhThuan\\Asp.Net\\webSV\\Webshop\\Webshop\\Webshop.csproj",
         "packagesPath": "C:\\Users\\AD\\.nuget\\packages\\",
-        "outputPath": "D:\\NguyenMinhThuan\\Asp.Net\\Webshop\\Webshop\\obj\\",
+        "outputPath": "D:\\NguyenMinhThuan\\Asp.Net\\webSV\\Webshop\\Webshop\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -19,7 +19,7 @@ namespace SinhVien.Model.Configuration
             builder.Property(x=>x.Lastname).IsRequired().IsUnicode().HasMaxLength(50);
             builder.Property(x => x.GioiTinh).IsRequired();
             builder.Property(x=>x.NgaySinh).IsRequired();
-
+            
 
         }
     }
