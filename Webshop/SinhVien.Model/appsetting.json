@@ -1,5 +1,5 @@
 {
   "ConnectionStrings": {
-    "QlSinhVien": "Server=LAPTOP-IDV8BBRQ;Database=QLSV;Trusted_Connection=True;"
+    "QlSinhVienDB": "Server=LAPTOP-IDV8BBRQ;Database=QLSV;Trusted_Connection=True;TrustServerCertificate=True;"
   }
 }

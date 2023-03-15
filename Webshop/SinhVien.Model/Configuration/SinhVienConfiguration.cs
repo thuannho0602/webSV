@@ -15,10 +15,21 @@ namespace SinhVien.Model.Configuration
         {
             builder.ToTable("SinhVien");
             builder.HasKey(x => x.Id);
-            builder.Property(x => x.Firstname).IsRequired().IsUnicode().HasMaxLength(50);
-            builder.Property(x=>x.Lastname).IsRequired().IsUnicode().HasMaxLength(50);
-            builder.Property(x => x.GioiTinh).IsRequired();
-            builder.Property(x=>x.NgaySinh).IsRequired();
+
+            builder.Property(x => x.Firstname)
+                .IsRequired()
+                .IsUnicode()
+                .HasMaxLength(50);
+
+            builder.Property(x=>x.Lastname)
+                .IsRequired()
+                .IsUnicode()
+                .HasMaxLength(50);
+
+            builder.HasOne(l => l.LopET)
+                .WithMany(sv => sv.SinhVienETs)
+                .HasForeignKey(pk => pk.LopId)
+                .HasConstraintName("PK_SinhVien_Lop");
             
 
         }

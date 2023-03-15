@@ -8,19 +8,25 @@ using System.Threading.Tasks;
 
 namespace SinhVien.Model.Entity
 {
-   
+   // [Table("Lop")]
     public class LopET
     {
 
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-       
+        //[DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+
+        //[Key]
        
         public int Id { get; set; }
         public string TenLop { get; set; }
-       
-        
+
+        //[ForeignKey("KhoaET")]
         public int KhoaId { get; set; }
-        public virtual KhoaET KhoaET { get; set; }
-        public List<SinhVienET> SinhVienETs { get; set; }
+        public  KhoaET KhoaET { get; set; }
+        public ICollection<SinhVienET> SinhVienETs { get; set; }
+
+        public LopET()
+        {
+            SinhVienETs=new HashSet<SinhVienET>();
+        }
     }
 }

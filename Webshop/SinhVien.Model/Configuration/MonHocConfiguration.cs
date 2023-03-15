@@ -15,8 +15,13 @@ namespace SinhVien.Model.Configuration
         {
             builder.ToTable("MonHoc");
             builder.HasKey(x => x.Id);
-            builder.Property(x => x.TenMH).HasMaxLength(50).IsRequired();
-            builder.Property(x=>x.SoTiet).IsRequired();
+            builder.Property(x => x.TenMH)
+                .HasMaxLength(50)
+                .IsRequired();
+            builder.Property(x=>x.SoTiet)
+                .IsRequired();
+            
+            
         }
     }
 }

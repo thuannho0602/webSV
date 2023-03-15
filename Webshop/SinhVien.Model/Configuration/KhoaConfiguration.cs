@@ -15,7 +15,9 @@ namespace SinhVien.Model.Configuration
         {
             builder.ToTable("Khoa");
             builder.HasKey(x => x.Id);
-            builder.Property(x => x.TenKhoa).HasMaxLength(50).IsRequired();
+            builder.Property(x => x.TenKhoa)
+                .HasMaxLength(50)
+                .IsRequired();
 
 
         }

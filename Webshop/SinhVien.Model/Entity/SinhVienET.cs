@@ -8,12 +8,12 @@ using System.Threading.Tasks;
 
 namespace SinhVien.Model.Entity
 {
-  
+    //[Table("SinhVien")]
     public class SinhVienET
     {
 
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        
+        //[DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        //[Key]
        
         public int Id { get; set; }
         public string Firstname { get; set; }
@@ -23,9 +23,14 @@ namespace SinhVien.Model.Entity
         public DateTime? NgaySinh { get; set; }
 
 
-        public virtual LopET LopET { get; set; }
         
+       // [ForeignKey("LopET")]
         public int LopId { get; set; }
-        public List<DiemThiET> DiemThiETs { get; set; }
+        public  LopET LopET { get; set; }
+        public ICollection<DiemThiET> DiemThiETs { get; set; }
+        public SinhVienET()
+        {
+            DiemThiETs = new HashSet<DiemThiET>();
+        }
     }
 }

@@ -14,9 +14,17 @@ namespace SinhVien.Model.Configuration
         public void Configure(EntityTypeBuilder<DiemThiET> builder)
         {
             builder.ToTable("DiemThi");
-            builder.HasKey(x => x.Id);
-            builder.Property(x => x.LanThi).IsRequired();
-            builder.Property(x => x.DiemThi).IsRequired();
+            builder.HasKey(dt => new {dt.MaSVId,dt.MaMHId});
+
+            builder.HasOne(dt => dt.SinhVienET)
+                .WithMany(sv => sv.DiemThiETs)
+                .HasForeignKey(dt => dt.MaSVId)
+                .HasConstraintName("FK_DiemThi-SinhVien");
+
+            builder.HasOne(dt => dt.MonHocET)
+                .WithMany(mh => mh.DiemThiETs)
+                .HasForeignKey(dt => dt.MaMHId)
+                .HasConstraintName("FK_DiemThi-MonHoc");
         }
     }
 }

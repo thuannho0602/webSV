@@ -15,7 +15,14 @@ namespace SinhVien.Model.Configuration
         {
             builder.ToTable("Lop");
             builder.HasKey(x => x.Id);
-            builder.Property(x => x.TenLop).IsRequired().HasMaxLength(20);
+            builder.Property(x => x.TenLop)
+                .IsRequired()
+                .HasMaxLength(20);
+
+            builder.HasOne(k => k.KhoaET)
+                .WithMany(l => l.LopETs)
+                .HasForeignKey(fk => fk.KhoaId)
+                .HasConstraintName("FK_Lop_Khoa");
 
 
         }

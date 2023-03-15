@@ -15,10 +15,10 @@ namespace SinhVien.Model.FE
         {
             IConfigurationRoot configuration = new ConfigurationBuilder()
                 .SetBasePath(Directory.GetCurrentDirectory())
-                .AddJsonFile("appsettings.json")
+                .AddJsonFile("appsetting.json")
                 .Build();
 
-            var connectionString = configuration.GetConnectionString("QlSinhVien");
+            var connectionString = configuration.GetConnectionString("QlSinhVienDB");
 
             var optionsBuilder = new DbContextOptionsBuilder<SinhVienDbcontext>();
             optionsBuilder.UseSqlServer(connectionString);

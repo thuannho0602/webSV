@@ -15,8 +15,17 @@ namespace SinhVien.Model.Configuration
         {
             builder.ToTable("GiangVien");
             builder.HasKey(x => x.Id);
-            builder.Property(x=>x.TenGV).HasMaxLength(50).IsRequired();
-            builder.Property(x => x.ChuyenNganh).HasMaxLength(50).IsRequired();
+            builder.Property(x=>x.TenGV)
+                .HasMaxLength(50).
+                IsRequired();
+            builder.Property(x => x.ChuyenNganh)
+                .HasMaxLength(50)
+                .IsRequired();
+
+            builder.HasOne(gv => gv.KhoaET)
+                .WithMany(k => k.GiangVienETs)
+                .HasForeignKey(gv => gv.KhoaId)
+                .HasConstraintName("FK_GiangVien_Khoa");
         }
     }
 }
