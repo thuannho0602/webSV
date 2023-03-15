@@ -2,4 +2,7 @@
   "ConnectionStrings": {
     "QlSinhVienDB": "Server=LAPTOP-IDV8BBRQ;Database=QLSV;Trusted_Connection=True;TrustServerCertificate=True;"
   }
+
+
+
 }
