@@ -28,9 +28,12 @@ namespace SinhVien.Model.Entity
         public int LopId { get; set; }
         public  LopET LopET { get; set; }
         public ICollection<DiemThiET> DiemThiETs { get; set; }
+        public Guid UserId { get; set; }
+        public User User { get; set; }
         public SinhVienET()
         {
             DiemThiETs = new HashSet<DiemThiET>();
         }
+       
     }
 }

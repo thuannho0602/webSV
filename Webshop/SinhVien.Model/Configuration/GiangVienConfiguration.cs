@@ -26,6 +26,11 @@ namespace SinhVien.Model.Configuration
                 .WithMany(k => k.GiangVienETs)
                 .HasForeignKey(gv => gv.KhoaId)
                 .HasConstraintName("FK_GiangVien_Khoa");
+            
+            builder.HasOne(us => us.User)
+                .WithMany(k => k.giangVienETs)
+                .HasForeignKey(gv => gv.UserId)
+                .HasConstraintName("FK_GiangVien_User");
         }
     }
 }

@@ -22,7 +22,8 @@ namespace SinhVien.Model.Entity
         public string ChuyenNganh { get; set; }
         //[ForeignKey("KhoaET")]
         public int KhoaId { get; set; }
-
+        public Guid UserId { get; set; }
         public  KhoaET KhoaET { get; set; }
+        public User User { get; set; }
     }
 }

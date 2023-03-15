@@ -30,8 +30,11 @@ namespace SinhVien.Model.Configuration
                 .WithMany(sv => sv.SinhVienETs)
                 .HasForeignKey(pk => pk.LopId)
                 .HasConstraintName("PK_SinhVien_Lop");
-            
 
+            builder.HasOne(ur => ur.User)
+               .WithMany(sv => sv.SinhVienETs)
+               .HasForeignKey(pk => pk.UserId)
+               .HasConstraintName("PK_SinhVien_USR");
         }
     }
 }
