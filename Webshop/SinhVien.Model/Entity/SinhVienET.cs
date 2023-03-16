@@ -32,6 +32,7 @@ namespace SinhVien.Model.Entity
         public User User { get; set; }
         public SinhVienET()
         {
+
             DiemThiETs = new HashSet<DiemThiET>();
         }
        
